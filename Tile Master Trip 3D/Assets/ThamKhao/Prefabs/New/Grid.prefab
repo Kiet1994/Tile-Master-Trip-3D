@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4502689026225488588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4502689026225488590}
+  - component: {fileID: 4502689026225488591}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4502689026225488590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502689026225488588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.8, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4502689026225488591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502689026225488588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078ab7a96c6bd7b4e89bcad97e21af71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xDim: 10
+  yDim: 10
+  fillTime: 0.1
+  piecePrefabs:
+  - type: 0
+    prefab: {fileID: 4722910474591582736, guid: 9669ff87c85505443b910e44fccbf33a, type: 3}
+  - type: 1
+    prefab: {fileID: 749990408006396628, guid: 74cf526842045b44abe7f67f7c4a6138, type: 3}
+  - type: 2
+    prefab: {fileID: 2732900167276532344, guid: fccc204f0e5b3c24386c3306603946b0, type: 3}
+  backgroundPrefab: {fileID: 2494975460023465713, guid: a6b08bdd2e0bc664c8d7ce33fe660351, type: 3}
+  initialPieces:
+  - type: 2
+    x: 0
+    y: 0
+  - type: 2
+    x: 1
+    y: 0
+  - type: 2
+    x: 2
+    y: 0
+  - type: 2
+    x: 0
+    y: 1
+  - type: 2
+    x: 0
+    y: 2
+  - type: 2
+    x: 1
+    y: 1
+  - type: 2
+    x: 7
+    y: 0
+  - type: 2
+    x: 8
+    y: 0
+  - type: 2
+    x: 9
+    y: 0
+  - type: 2
+    x: 8
+    y: 1
+  - type: 2
+    x: 9
+    y: 1
+  - type: 2
+    x: 9
+    y: 2
+  - type: 2
+    x: 4
+    y: 4
+  - type: 2
+    x: 4
+    y: 5
+  - type: 2
+    x: 5
+    y: 4
+  - type: 2
+    x: 5
+    y: 5
+  - type: 2
+    x: 0
+    y: 7
+  - type: 2
+    x: 0
+    y: 8
+  - type: 2
+    x: 0
+    y: 9
+  - type: 2
+    x: 1
+    y: 8
+  - type: 2
+    x: 1
+    y: 9
+  - type: 2
+    x: 2
+    y: 9
+  - type: 2
+    x: 7
+    y: 9
+  - type: 2
+    x: 8
+    y: 9
+  - type: 2
+    x: 9
+    y: 9
+  - type: 2
+    x: 8
+    y: 8
+  - type: 2
+    x: 9
+    y: 8
+  - type: 2
+    x: 9
+    y: 7
