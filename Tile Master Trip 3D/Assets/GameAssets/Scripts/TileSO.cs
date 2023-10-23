@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class TileSO : ScriptableObject
 {
-    public Tile[] tiles;
+    public List<Tile> tiles;
 }
 [System.Serializable]
 public class Tile

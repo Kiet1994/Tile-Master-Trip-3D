@@ -9,10 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bfcb16288a01aa49893e14ce75e53f6, type: 3}
-  m_Name: Tiles
+  m_Script: {fileID: 11500000, guid: b05c938cd9d14fe47b1df994ec473e66, type: 3}
+  m_Name: Levels
   m_EditorClassIdentifier: 
-  tiles:
+  tileSO: {fileID: 11400000, guid: 4e425756412790e4291bdf2be701192c, type: 2}
+  levels:
+  - name: 
+    displayName: 
+    level: 0
+    playTime: 
+    selectedTileIndex: 0
+    tiles:
+    - id: 1
+      sprite: {fileID: 2957634287796046357, guid: bc0819d2b3c9c2c41b8df4e71c4ef3fd, type: 3}
+    - id: 1
+      sprite: {fileID: 2957634287796046357, guid: bc0819d2b3c9c2c41b8df4e71c4ef3fd, type: 3}
+    - id: 8
+      sprite: {fileID: -8533753560932901969, guid: bc0819d2b3c9c2c41b8df4e71c4ef3fd, type: 3}
+    - id: 7
+      sprite: {fileID: 2851795368994479150, guid: bc0819d2b3c9c2c41b8df4e71c4ef3fd, type: 3}
+  tileChoices:
   - id: 1
     sprite: {fileID: 2957634287796046357, guid: bc0819d2b3c9c2c41b8df4e71c4ef3fd, type: 3}
   - id: 2

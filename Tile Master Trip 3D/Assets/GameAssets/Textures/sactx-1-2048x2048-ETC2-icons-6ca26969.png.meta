@@ -531,6 +531,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -597,6 +598,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -674,7 +687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_3
+      name: 1
       rect:
         serializedVersion: 2
         x: 471
@@ -842,7 +855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_11
+      name: 2
       rect:
         serializedVersion: 2
         x: 1727
@@ -1325,7 +1338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_34
+      name: f
       rect:
         serializedVersion: 2
         x: 1256
@@ -1661,7 +1674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_50
+      name: u
       rect:
         serializedVersion: 2
         x: 1727
@@ -2711,7 +2724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_100
+      name: g
       rect:
         serializedVersion: 2
         x: 1413
@@ -3152,7 +3165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_121
+      name: 4
       rect:
         serializedVersion: 2
         x: 628
@@ -3404,12 +3417,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_133
+      name: 6
       rect:
         serializedVersion: 2
         x: 471
-        y: 317
-        width: 152.53847
+        y: 320
+        width: 153
         height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3425,7 +3438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_134
+      name: a
       rect:
         serializedVersion: 2
         x: 628
@@ -3509,7 +3522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_138
+      name: p
       rect:
         serializedVersion: 2
         x: 1256
@@ -3845,7 +3858,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_154
+      name: d
       rect:
         serializedVersion: 2
         x: 1727
@@ -3887,7 +3900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_156
+      name: 7
       rect:
         serializedVersion: 2
         x: 0
@@ -4097,7 +4110,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-1-2048x2048-ETC2-icons-6ca26969_166
+      name: y
       rect:
         serializedVersion: 2
         x: 1570
@@ -4169,6 +4182,176 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      1: -67638215879012815
+      2: 1897652482490218988
+      4: 3037323465963579059
+      6: -3997879948470988657
+      7: -8049796848391872864
+      Bell: 2957634287796046357
+      Candy: 7031823468325674642
+      Chery: -143418886311903522
+      Dophin: 6975242844569969613
+      Koi: 2851795368994479150
+      Lemon: -8533753560932901969
+      PhuSi: 5541555341729102819
+      Rose: -2146176973148544870
+      Sushi: 2572873299344351993
+      a: -9162714298495347217
+      d: 4470752420200456296
+      f: 141581083803930287
+      g: 750565256433509741
+      ice: -3627924621857581065
+      p: 6118008901365362219
+      sactx-1-2048x2048-ETC2-icons-6ca26969_1: 8117630533828405852
+      sactx-1-2048x2048-ETC2-icons-6ca26969_10: 5274581016609461930
+      sactx-1-2048x2048-ETC2-icons-6ca26969_101: 2590898809126940321
+      sactx-1-2048x2048-ETC2-icons-6ca26969_102: 3659152451706445964
+      sactx-1-2048x2048-ETC2-icons-6ca26969_103: -6772826977472895018
+      sactx-1-2048x2048-ETC2-icons-6ca26969_104: -1958388101336599145
+      sactx-1-2048x2048-ETC2-icons-6ca26969_105: 9103210054352236927
+      sactx-1-2048x2048-ETC2-icons-6ca26969_107: 3125874058010342577
+      sactx-1-2048x2048-ETC2-icons-6ca26969_108: 2556455152554712535
+      sactx-1-2048x2048-ETC2-icons-6ca26969_109: 7367409047410110170
+      sactx-1-2048x2048-ETC2-icons-6ca26969_110: 1901236902395203632
+      sactx-1-2048x2048-ETC2-icons-6ca26969_111: 217704362613616799
+      sactx-1-2048x2048-ETC2-icons-6ca26969_112: 548388488904322238
+      sactx-1-2048x2048-ETC2-icons-6ca26969_113: 3786899927449464897
+      sactx-1-2048x2048-ETC2-icons-6ca26969_114: 7353907755641641566
+      sactx-1-2048x2048-ETC2-icons-6ca26969_115: 566917560276106101
+      sactx-1-2048x2048-ETC2-icons-6ca26969_116: -3519097156132918466
+      sactx-1-2048x2048-ETC2-icons-6ca26969_117: 8581929743462515971
+      sactx-1-2048x2048-ETC2-icons-6ca26969_118: 6635681631866734600
+      sactx-1-2048x2048-ETC2-icons-6ca26969_119: -991605257657756944
+      sactx-1-2048x2048-ETC2-icons-6ca26969_12: -1307089154730196336
+      sactx-1-2048x2048-ETC2-icons-6ca26969_120: 4935625595044975777
+      sactx-1-2048x2048-ETC2-icons-6ca26969_122: 6693677222175116619
+      sactx-1-2048x2048-ETC2-icons-6ca26969_124: -2990559435002571337
+      sactx-1-2048x2048-ETC2-icons-6ca26969_125: 1321762988758388696
+      sactx-1-2048x2048-ETC2-icons-6ca26969_126: -2016683761860264252
+      sactx-1-2048x2048-ETC2-icons-6ca26969_127: 8785073055441004797
+      sactx-1-2048x2048-ETC2-icons-6ca26969_128: -6790059695672766654
+      sactx-1-2048x2048-ETC2-icons-6ca26969_129: -2382189236404531519
+      sactx-1-2048x2048-ETC2-icons-6ca26969_13: 760831043551603501
+      sactx-1-2048x2048-ETC2-icons-6ca26969_130: -2972810058825204454
+      sactx-1-2048x2048-ETC2-icons-6ca26969_131: 7189199027344132497
+      sactx-1-2048x2048-ETC2-icons-6ca26969_132: -8988070070931277846
+      sactx-1-2048x2048-ETC2-icons-6ca26969_135: -5569720164475754186
+      sactx-1-2048x2048-ETC2-icons-6ca26969_136: 3482258688146769789
+      sactx-1-2048x2048-ETC2-icons-6ca26969_137: -164832266742579066
+      sactx-1-2048x2048-ETC2-icons-6ca26969_139: 555666206570154776
+      sactx-1-2048x2048-ETC2-icons-6ca26969_14: -4670652921745204984
+      sactx-1-2048x2048-ETC2-icons-6ca26969_140: 1709260022031001788
+      sactx-1-2048x2048-ETC2-icons-6ca26969_141: -1873883195451972686
+      sactx-1-2048x2048-ETC2-icons-6ca26969_143: 1966292556972172330
+      sactx-1-2048x2048-ETC2-icons-6ca26969_144: 2266074485409477361
+      sactx-1-2048x2048-ETC2-icons-6ca26969_145: 1694125005509231411
+      sactx-1-2048x2048-ETC2-icons-6ca26969_146: -7657335246833696410
+      sactx-1-2048x2048-ETC2-icons-6ca26969_147: 7185460514289884079
+      sactx-1-2048x2048-ETC2-icons-6ca26969_148: -2260658539246228962
+      sactx-1-2048x2048-ETC2-icons-6ca26969_149: -7257722009818870241
+      sactx-1-2048x2048-ETC2-icons-6ca26969_15: -4334122487761466298
+      sactx-1-2048x2048-ETC2-icons-6ca26969_150: -1289155579992365414
+      sactx-1-2048x2048-ETC2-icons-6ca26969_151: 2237349430240740779
+      sactx-1-2048x2048-ETC2-icons-6ca26969_152: -7482447628498529157
+      sactx-1-2048x2048-ETC2-icons-6ca26969_153: -7773823254097851593
+      sactx-1-2048x2048-ETC2-icons-6ca26969_157: -2232241175138497998
+      sactx-1-2048x2048-ETC2-icons-6ca26969_158: -3432911406912513703
+      sactx-1-2048x2048-ETC2-icons-6ca26969_159: -3206220196337439322
+      sactx-1-2048x2048-ETC2-icons-6ca26969_16: 2159128024913204888
+      sactx-1-2048x2048-ETC2-icons-6ca26969_160: 8914351301532101396
+      sactx-1-2048x2048-ETC2-icons-6ca26969_161: -346742858448449062
+      sactx-1-2048x2048-ETC2-icons-6ca26969_162: -4999068788979970634
+      sactx-1-2048x2048-ETC2-icons-6ca26969_164: 6795364211870215508
+      sactx-1-2048x2048-ETC2-icons-6ca26969_165: 5299605380155930641
+      sactx-1-2048x2048-ETC2-icons-6ca26969_167: 5018803660305045842
+      sactx-1-2048x2048-ETC2-icons-6ca26969_168: 3701760717235345828
+      sactx-1-2048x2048-ETC2-icons-6ca26969_17: -8421734555584174079
+      sactx-1-2048x2048-ETC2-icons-6ca26969_18: 3630542882153710532
+      sactx-1-2048x2048-ETC2-icons-6ca26969_19: 6244356328246296881
+      sactx-1-2048x2048-ETC2-icons-6ca26969_20: 6700169153889616858
+      sactx-1-2048x2048-ETC2-icons-6ca26969_21: -3125681459238888147
+      sactx-1-2048x2048-ETC2-icons-6ca26969_22: 622490991475579902
+      sactx-1-2048x2048-ETC2-icons-6ca26969_23: 6616442587009449318
+      sactx-1-2048x2048-ETC2-icons-6ca26969_24: 949583098857989255
+      sactx-1-2048x2048-ETC2-icons-6ca26969_25: -2870852354351884762
+      sactx-1-2048x2048-ETC2-icons-6ca26969_26: 4585177457868267579
+      sactx-1-2048x2048-ETC2-icons-6ca26969_27: -8978193414574444843
+      sactx-1-2048x2048-ETC2-icons-6ca26969_28: -9167458123148871383
+      sactx-1-2048x2048-ETC2-icons-6ca26969_29: 3478050598159672022
+      sactx-1-2048x2048-ETC2-icons-6ca26969_30: -2286833202688910284
+      sactx-1-2048x2048-ETC2-icons-6ca26969_31: -8282166458585714164
+      sactx-1-2048x2048-ETC2-icons-6ca26969_32: 5613337091386374637
+      sactx-1-2048x2048-ETC2-icons-6ca26969_33: -8139434691655710944
+      sactx-1-2048x2048-ETC2-icons-6ca26969_35: -1389809211999405769
+      sactx-1-2048x2048-ETC2-icons-6ca26969_36: 1860603782355996389
+      sactx-1-2048x2048-ETC2-icons-6ca26969_37: 7123679425420926816
+      sactx-1-2048x2048-ETC2-icons-6ca26969_39: 18623121410537288
+      sactx-1-2048x2048-ETC2-icons-6ca26969_4: -837822259092194740
+      sactx-1-2048x2048-ETC2-icons-6ca26969_40: 6039832696841142073
+      sactx-1-2048x2048-ETC2-icons-6ca26969_41: -4579001311348278445
+      sactx-1-2048x2048-ETC2-icons-6ca26969_42: -850546048969953578
+      sactx-1-2048x2048-ETC2-icons-6ca26969_43: 6739762273558415760
+      sactx-1-2048x2048-ETC2-icons-6ca26969_44: -5043550054212887819
+      sactx-1-2048x2048-ETC2-icons-6ca26969_45: 3661255058633864643
+      sactx-1-2048x2048-ETC2-icons-6ca26969_46: 6973529110607475011
+      sactx-1-2048x2048-ETC2-icons-6ca26969_47: 3990085517359955406
+      sactx-1-2048x2048-ETC2-icons-6ca26969_48: 693152558693526888
+      sactx-1-2048x2048-ETC2-icons-6ca26969_49: 8696543594974981930
+      sactx-1-2048x2048-ETC2-icons-6ca26969_5: -1527902642651036291
+      sactx-1-2048x2048-ETC2-icons-6ca26969_51: 5663866992652606568
+      sactx-1-2048x2048-ETC2-icons-6ca26969_52: -2168343023649067101
+      sactx-1-2048x2048-ETC2-icons-6ca26969_53: 4733133326498944916
+      sactx-1-2048x2048-ETC2-icons-6ca26969_54: 8098185520274408475
+      sactx-1-2048x2048-ETC2-icons-6ca26969_55: -4285640666656350464
+      sactx-1-2048x2048-ETC2-icons-6ca26969_56: -3117957234555618564
+      sactx-1-2048x2048-ETC2-icons-6ca26969_57: -6580433225864461561
+      sactx-1-2048x2048-ETC2-icons-6ca26969_58: -464936780904632656
+      sactx-1-2048x2048-ETC2-icons-6ca26969_59: 3062778794836070038
+      sactx-1-2048x2048-ETC2-icons-6ca26969_6: 4679219302178231541
+      sactx-1-2048x2048-ETC2-icons-6ca26969_61: -2164249096637109872
+      sactx-1-2048x2048-ETC2-icons-6ca26969_62: -7822382100617487234
+      sactx-1-2048x2048-ETC2-icons-6ca26969_63: -5975170582307333541
+      sactx-1-2048x2048-ETC2-icons-6ca26969_64: -5883865192891874480
+      sactx-1-2048x2048-ETC2-icons-6ca26969_65: -8466724809123283870
+      sactx-1-2048x2048-ETC2-icons-6ca26969_67: 5865527289257371048
+      sactx-1-2048x2048-ETC2-icons-6ca26969_68: 1736492814977286343
+      sactx-1-2048x2048-ETC2-icons-6ca26969_69: -8917690288085063459
+      sactx-1-2048x2048-ETC2-icons-6ca26969_7: 251479165292402912
+      sactx-1-2048x2048-ETC2-icons-6ca26969_70: 1133518447319673061
+      sactx-1-2048x2048-ETC2-icons-6ca26969_71: 6253323050267852648
+      sactx-1-2048x2048-ETC2-icons-6ca26969_72: -7343655201881253545
+      sactx-1-2048x2048-ETC2-icons-6ca26969_73: 7547477985122099126
+      sactx-1-2048x2048-ETC2-icons-6ca26969_74: 915095828388698733
+      sactx-1-2048x2048-ETC2-icons-6ca26969_75: 2105018824886149828
+      sactx-1-2048x2048-ETC2-icons-6ca26969_76: 5278705839140720635
+      sactx-1-2048x2048-ETC2-icons-6ca26969_77: -4097920241774331856
+      sactx-1-2048x2048-ETC2-icons-6ca26969_78: 6051653671415274281
+      sactx-1-2048x2048-ETC2-icons-6ca26969_79: 5038082686093309179
+      sactx-1-2048x2048-ETC2-icons-6ca26969_8: 6727035851274913983
+      sactx-1-2048x2048-ETC2-icons-6ca26969_80: 1301433968105286778
+      sactx-1-2048x2048-ETC2-icons-6ca26969_81: -8877513648201737859
+      sactx-1-2048x2048-ETC2-icons-6ca26969_82: 5102505682232077003
+      sactx-1-2048x2048-ETC2-icons-6ca26969_83: -2714903399988520383
+      sactx-1-2048x2048-ETC2-icons-6ca26969_84: -4222083512971753378
+      sactx-1-2048x2048-ETC2-icons-6ca26969_85: -1208617928919929767
+      sactx-1-2048x2048-ETC2-icons-6ca26969_86: -8692492665256367317
+      sactx-1-2048x2048-ETC2-icons-6ca26969_87: -8495531267124091067
+      sactx-1-2048x2048-ETC2-icons-6ca26969_88: -1114994280510666175
+      sactx-1-2048x2048-ETC2-icons-6ca26969_89: -8309157554817795136
+      sactx-1-2048x2048-ETC2-icons-6ca26969_9: -2173712676046189488
+      sactx-1-2048x2048-ETC2-icons-6ca26969_90: -4008760033051273507
+      sactx-1-2048x2048-ETC2-icons-6ca26969_91: -2878734637434604719
+      sactx-1-2048x2048-ETC2-icons-6ca26969_92: -3008905789890122228
+      sactx-1-2048x2048-ETC2-icons-6ca26969_93: 3261010600738962706
+      sactx-1-2048x2048-ETC2-icons-6ca26969_94: 8847161003833314708
+      sactx-1-2048x2048-ETC2-icons-6ca26969_95: -8143733414947212039
+      sactx-1-2048x2048-ETC2-icons-6ca26969_96: -945965049548244825
+      sactx-1-2048x2048-ETC2-icons-6ca26969_97: 8350759794865571806
+      sactx-1-2048x2048-ETC2-icons-6ca26969_98: -6033743208730425320
+      sactx-1-2048x2048-ETC2-icons-6ca26969_99: 8888747154894497461
+      u: -426831329255620593
+      y: -3327117159348349421
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

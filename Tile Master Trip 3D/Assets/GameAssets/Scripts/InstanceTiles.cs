@@ -12,7 +12,7 @@ public class InstanceTiles : MonoBehaviour
     {
         for (int i = 1; i <= tileCount; i++)
         {
-            var typeTile = Random.Range(0 , tileSO.tiles.Length);
+            var typeTile = Random.Range(0 , tileSO.tiles.Count);
             for (int j = 1; j <= 3; j++)
             {
             var tile = Instantiate(tilePrefap, new Vector3(Random.Range(-rangeRandom.x, rangeRandom.x), rangeRandom.y, Random.Range(-rangeRandom.z, rangeRandom.z)),Quaternion.identity);
