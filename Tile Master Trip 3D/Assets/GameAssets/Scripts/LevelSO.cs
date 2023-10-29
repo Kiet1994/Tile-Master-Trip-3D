@@ -8,7 +8,6 @@ public class LevelSO : ScriptableObject
 
 	public TileSO tileSO;
     public Level[] levels;
-    public List<Tile> tileChoices;
 }
 
 

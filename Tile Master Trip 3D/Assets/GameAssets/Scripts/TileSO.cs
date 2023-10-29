@@ -7,6 +7,7 @@ public class TileSO : ScriptableObject
 {
     public List<Tile> tiles;
 }
+
 [System.Serializable]
 public class Tile
 {

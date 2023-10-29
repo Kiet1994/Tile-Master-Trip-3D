@@ -61,12 +61,12 @@ public class TileSOEditor : EditorWindow
 
 	private void AddTile()
 	{
-		//if (tileSO != null)
-		//{
-		//	Tile newTile = new Tile();
-		//	ArrayUtility.Add(ref tileSO.tiles, newTile);
-		//}
-	}
+        //if (tileSO != null)
+        //{
+        //    Tile newTile = new Tile();
+        //    ArrayUtility.Add(ref tileSO.tiles, newTile);
+        //}
+    }
 
 	private void RemoveTile(int index)
 	{
